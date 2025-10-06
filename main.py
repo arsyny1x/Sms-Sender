@@ -35,7 +35,7 @@ banner = """
    ███████║██║ ╚═╝ ██║███████║    ███████║██║     ██║  ██║██║ ╚═╝ ██║██║ ╚═╝ ██║███████╗██║  ██║
    ╚══════╝╚═╝     ╚═╝╚══════╝    ╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝
 
-                BY | DIAMOND#9999   DC | https://discord.gg/diamond-shop
+                BY | Arsyny1x 
 """
 
 # Global session object will be created inside CNP for each run, or can be truly global
@@ -498,4 +498,5 @@ if __name__ == "__main__":
         print(f"\n{Fore.RED}Process interrupted by user. Exiting...{Fore.RESET}")
     finally:
         http_session.close()  # Ensure the global session is closed when the program exits
+
         print(f"{Fore.CYAN}HTTP session closed.{Fore.RESET}")
