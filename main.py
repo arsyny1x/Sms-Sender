@@ -59,7 +59,7 @@ def CNP():
     # For this script, a single session instance should be fine.
     http_session.headers.update({"user-agent": DEFAULT_USER_AGENT})
 
-    os.system("title SMS SENDER BY DIAMOND#9999")
+    os.system("title SMS SENDER BY Arsyny1x")
     print(green(banner))
 
     phone_input = input("[+] Enter Phone : ")
@@ -500,3 +500,4 @@ if __name__ == "__main__":
         http_session.close()  # Ensure the global session is closed when the program exits
 
         print(f"{Fore.CYAN}HTTP session closed.{Fore.RESET}")
+
