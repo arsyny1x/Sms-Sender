@@ -501,3 +501,4 @@ if __name__ == "__main__":
 
         print(f"{Fore.CYAN}HTTP session closed.{Fore.RESET}")
 
+
